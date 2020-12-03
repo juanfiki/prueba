@@ -1,0 +1,88 @@
+footer{
+    background-color: black;
+  
+    padding-top: 0%;   
+    margin-left: 0%;
+    border: black 5px solid;
+   
+}
+.partefooter{
+    background: fixed;
+    padding: 0%;
+    width: 100%;
+    background-color: black;
+    
+}
+.contenidof{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.titulomapa{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    padding: 35px 15px 0;
+    font-size: 30%;
+
+}
+iframe{
+    margin: 40px;
+    border-radius: 5px;
+
+}
+form{
+margin-left: 100px;
+width: 500px;
+background-color:rgb(154, 154, 207);
+box-sizing: border-box;
+padding: 15px 15px;
+margin-top: 10px;
+border-radius: 10px;
+font-family: cursive;
+
+
+
+
+}
+.input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: cursive;
+
+}
+
+textarea{
+    min-height: 100%;
+    max-height: 150%;
+}
+
+#boton{
+    background: write ;
+    color: black;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+    background: blanchedalmond;
+    color: chocolate;
+}
+
+h3{
+    color:white;
+  font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pagfinal{
+    width: 100%;
+text-align: center;
+    background-color: white;
+}

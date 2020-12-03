@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmw</title>
+    <link rel="icon" href="./Logo/logopestaña.jpg">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <link rel="stylesheet" href="./estilos/slider.css">
+    <link rel="stylesheet" href="./Pagnosotros/nosotros.css">
+    <link rel="stylesheet" href="./estilos/footer.css">
+</head>
+
+
+</header>
+
+<body>
+    <header class="logo">
+        <div>
+            <img class="img-logo" src="./Logo/logobmw.png" alt="imagenlogo">
+        </div>
+
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./Pagnosotros/nosotros.html ">Nosotros</a></li>
+            <li><a href="./Gs1200/gs.html">Gs1200</a></li>
+
+
+        </ul>
+    </nav>
+    <!-- slider -->
+    <section>
+        <article>
+            <ul class="slider-portada">
+                <li>
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+                    <img src="./imagenes/moto1.jpg " alt="">
+                </li>
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio" checked>
+                    <label for="sbutton2"></label>
+                    <img src="./imagenes/moto2.jpg " alt="">
+                </li>
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio" checked>
+                    <label for="sbutton3"></label>
+                    <img src="./imagenes/moto3.jpg " alt="">
+                </li>
+
+            </ul>
+
+        </article>
+    </section>
+
+    <!-- frase -->
+    <article class="bloquevideo">
+        <h1 class="titulo">Pasion Sobre Ruedas</h1>
+        <section class="frase">
+
+
+            <i>
+                <q>
+                    Busqué mi libertad por todas partes y <br> la encontré justo aquí, sentado en <br> una motocicleta
+                </q><br>
+            </i>
+        </section>
+
+        <section class="videobmw">
+            <iframe width="660" height="415" src="https://www.youtube.com/embed/DxlYQumjI9o" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </section>
+    </article>
+
+    <footer>
+        <section class="partefooter">
+            <h3>Estamos ubicados</h3>
+            <div class="contenidof">
+                <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127244.11883942113!2d-74.09899434179685!3d4.704097700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f900016afcaaf%3A0x88cc2d0d6f7c5073!2sBMW%20Autogermana!5e0!3m2!1ses!2sco!4v1605720182896!5m2!1ses!2sco"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+            
+                <div>
+                    <form action="">
+                        <h3>contacto</h3>
+                        <form action="">
+                            <label for=" nombre">Escriba su nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="escribir su nombre"required>
+                            <br>
+                            <label for=" Apellidos">Escriba su Apellido</label>
+                            <input type="text" id="apellidos" name="Apellidos" placeholder="escribir su Apellido"required>
+                            <br>
+                            <label for="correo">ingrese su correo</label>
+                            <input type="email" id="correo" name="correo" placeholder="Escriba su correo" required>
+                            <br>
+                            <textarea name="mensaje" id="textarea" placeholder="Pregunte por su moto" cols="30"
+                                rows="10"></textarea>
+                            <label for="textarea"></label>
+                            <button type="button" onclick="enviarFomulario()" value="enviar" >enviar</button>
+                            
+                            <!-- <img onclick="imaclick()" src="./imagenes/motonosotros.jpg" width="300" height="300" alt="imagenbiografia"> -->
+                            
+                        </form>
+                        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                        <script src ="./formulario.js">  </script>
+                </div>
+            </div>
+     
+           
+
+
+        </section>
+        
+        <footer>
+            <section>
+                <div class="pagfinal">
+                    <div class="ajusteiconos">
+                       
+                        <a href="https://www.facebook.com/BMWMotorradColombia" target="_black">
+                            <img src="../Logo/face.png" width="30" height="30" alt="logoface">
+                        </a>
+                        <a href="https://www.instagram.com/bmwmotorrad/?hl=es-la" target="_black">
+                            <img src="../Logo/inta.jpg" width="30" height="30" alt="">
+                        </a>
+
+                        <p>Creado por Sebastian Fiquitiva</p>
+                    </div>
+                </div>
+
+            </section>
+        </footer>
+        </section>
+
+        </section>
+
+       
+</body>
+
+</html>
